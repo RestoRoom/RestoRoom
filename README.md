@@ -4,6 +4,9 @@
 
 ---
 
+> [!NOTE]
+> This is my first time attempting a project of this scale, and reverse engineering stuff, so things may be rough around the edges. Bear with me!
+
 ## What is this?
 
 Rec Room is shutting down on **June 1st, 2026**. RestoRoom is an open-source effort to reverse engineer and reimplement the Rec Room server infrastructure so the community can keep playing after the lights go out.
