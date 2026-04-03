@@ -21,7 +21,7 @@ This is a preservation project, built by fans, for fans.
 
 | Component | Status |
 |---|---|
-| Network protocol research | 🔄 In progress |
+| Network protocol research | 🔄 In progress — [20 subdomains discovered](docs/api/subdomains.md) |
 | Account / auth server | ❌ Not started |
 | Room server | ❌ Not started |
 | Photon relay | ❌ Not started |
