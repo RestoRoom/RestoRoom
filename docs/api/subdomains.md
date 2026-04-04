@@ -19,6 +19,7 @@ Captured by [@PoimeYT](https://github.com/PoimeYT).
 | `match.rec.net` | Matchmaking | High |
 | `chat.rec.net` | In-game chat | High |
 | `lists.rec.net` | Friend lists, block lists | High |
+| `leaderboard.rec.net` | Leaderboards for rooms | High |
 | `clubs.rec.net` | Clubs / groups | High |
 | `econ.rec.net` | Economy, currency (tokens) | High |
 | `commerce.rec.net` | Shop, purchases, transactions | High |
