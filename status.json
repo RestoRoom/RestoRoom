@@ -1,41 +1,41 @@
-{
-  "last_updated": "2026-04-03",
+
+  "last_updated": "2026-04-05",
   "components": [
     {
       "name": "Protocol Research",
       "status": "in_progress",
       "description": "Capturing and documenting network traffic between the Rec Room client and official servers.",
-      "notes": "20 subdomains discovered via TLS SNI sniffing. See docs/api/subdomains.md."
+      "notes": "21 subdomains discovered via TLS SNI sniffing (April 3rd, 2026) by crasho-rr and PoimeYT. All traffic is TLS 1.2. Most subdomains on Cloudflare; img.rec.net and cdn.rec.net on Azure. See docs/api/subdomains.md."
     },
     {
       "name": "API Documentation",
       "status": "in_progress",
       "description": "Building a reference of all known endpoints, request/response formats, and auth flows.",
-      "notes": "Subdomain map complete. Endpoint details still unknown due to TLS encryption."
+      "notes": "Subdomain map complete. 40+ endpoints documented across social, players, rooms, images, moderation, avatar, inventions, config, and content moderation categories. All use base URL https://api.rec.net. Endpoint request/response formats still unknown due to TLS encryption — methods are inferred. See docs/api/rec_room_apis.md."
     },
     {
       "name": "REST API Server",
       "status": "not_started",
       "description": "Account management, room listings, inventory, friends — the full web backend.",
-      "notes": ""
+      "notes": "Priority subdomain order identified: auth > accounts > rooms > match > api > econ/commerce > chat > lists > img/cdn."
     },
     {
       "name": "Photon Relay",
       "status": "not_started",
       "description": "Reimplementing or replacing the Photon SDK layer for real-time multiplayer.",
-      "notes": ""
+      "notes": "match.rec.net identified as the matchmaking subdomain. Likely connects to Photon backend."
     },
     {
       "name": "Auth System",
       "status": "not_started",
       "description": "Login, accounts, and sessions — open so anyone can connect without the official backend.",
-      "notes": ""
+      "notes": "auth.rec.net confirmed as highest priority — nothing works without it. Resolves to Cloudflare (104.18.8.90)."
     },
     {
       "name": "Client Redirect",
       "status": "not_started",
       "description": "Patching or proxying the client to connect to RestoRoom servers after June 1st.",
-      "notes": ""
+      "notes": "EasyAntiCheat blocks mitmproxy on PC. SSL pinning blocks cert interception on Android. Frida hooking of UnityWebRequest/HttpClient in progress as next approach."
     }
   ]
 }
