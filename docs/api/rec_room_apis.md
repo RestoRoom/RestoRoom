@@ -19,7 +19,9 @@
 | `/api/players/v1/playerPhotoTaggingSetting` | GET | Photo tagging setting |
 | `/api/players/v2/progression/bulk?id=` | GET | Bulk player progression by ID |
 | `/api/progressionEvents/active` | GET | Active progression events |
+| `/api/progressionEvents/event/id` | GET | Progression event |
 | `/api/purchasableXpBoosts/activations` | GET | XP boost activations |
+| `/api/playerReputation/v2/bulk?id=` | GET | Bulk player reputation by ID|
 
 ## Rooms
 | Endpoint | Method | Notes |
@@ -63,8 +65,10 @@
 | Endpoint | Method | Notes |
 |----------|--------|-------|
 | `/api/config/v2` | GET | App config |
+| `/api/gameconfigs/v1/all ` | GET | Game configs |
 | `/api/versioncheck/islandedversions` | GET | Islanded version check |
 | `/api/keepsakes/globalconfig` | GET | Keepsakes global config |
+| `/api/keepsakes/categories` | GET | Keepsakes categories |
 | `/api/playerevents/v1/all` | GET | All player events |
 | `/api/playerevents/v1/tagfilters` | GET | Player event tag filters |
 | `/api/communityboard/v2/current` | GET | Current community board |
