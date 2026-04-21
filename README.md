@@ -34,10 +34,10 @@ This is a preservation project, built by fans, for fans.
 | Component | Status |
 |---|---|
 | Network protocol research | 🔄 In progress — [20 subdomains discovered](docs/api/subdomains.md) |
-| Account / auth server | ❌ Not started |
+| Account / auth server | 🟡 In very early stages of development |
 | Room server | ❌ Not started |
 | Photon relay | ❌ Not started |
-| Client patching / redirect | ❌ Not started |
+| Client patching / redirect | 🟡 In very early stages of development |
 
 ---
 
