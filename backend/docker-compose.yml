@@ -1,0 +1,15 @@
+services:
+  recnet:
+    image: node:20-alpine
+    working_dir: /app
+    command: ["node", "services/recnet/server.js"]
+    volumes:
+      - ./:/app
+    ports:
+      - "7000:7000"
+    environment:
+      - PORT=7000
+      - BASE_DOMAIN=rec.net
+      - ENABLE_TEST_SUBDOMAINS=true
+      - ENABLE_REC_NET_COMPAT=true
+      - API_FALLBACK_200=true
