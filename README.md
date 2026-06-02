@@ -61,7 +61,10 @@ Our approach:
 We need all kinds of help — reverse engineers, backend devs, and people who can document findings.
 
 ### Getting started
+# Self Hosting
+This is not started
 
+# Devlopment
 1. Fork the repo
 2. Check the [issues](../../issues) tab for tasks you can help with
 3. Read [CONTRIBUTING.md](CONTRIBUTING.md)
@@ -72,6 +75,7 @@ We need all kinds of help — reverse engineers, backend devs, and people who ca
 
 This is a **non-commercial fan preservation project**. We are not affiliated with Rec Room Inc. We do not redistribute any game assets or proprietary code. All reverse engineering is done for interoperability purposes.
 
+Edit: Rec Room Inc. dead
 ---
 
 ## Community
@@ -82,4 +86,4 @@ The official servers are going away. The community doesn't have to.
 
 ---
 
-*RestoRoom is not affiliated with Rec Room Inc.*
+*RestoRoom is not affiliated with Rec Room Inc. or Roblox. Wait Rec Room Inc. is gone so it means we can do whatever we want*
