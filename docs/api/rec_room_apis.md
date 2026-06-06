@@ -61,27 +61,31 @@
 | `/api/rooms/v1/verifyRole`                            | POST   | Verify player role in room  |
 | `/api/rooms/v3/report`                                | POST   | Report a room               |
 | `/api/quickPlay/v1/getandclear`                       | POST   | Quick play queue            |
-| `/Room_server/rooms`                                  | GET    | Room listing                |
-| `/Room_server/rooms/{id}`                             | GET    | Room details                |
-| `/Room_server/rooms/bulk`                             | GET    | Bulk room lookup            |
-| `/Room_server/dormroom/me`                            | GET    | User dorm room              |
-| `/Room_server/featuredrooms/current`                  | GET    | Featured rooms              |
-| `/Room_server/rooms/hot`                              | GET    | Hot rooms                   |
-| `/Room_server/rooms/search`                           | GET    | Room search                 |
-| `/Room_server/rooms/autocomplete_search`              | GET    | Room search suggestions     |
-| `/Room_server/rooms/ownedby/me`                       | GET    | Rooms owned by current user |
-| `/Room_server/rooms/visitedby/me`                     | GET    | Recently visited rooms      |
-| `/Room_server/rooms/{id}/experience`                  | GET    | Room experience metadata    |
-| `/Room_server/rooms/{id}/experience/player`           | GET    | Player room experience      |
-| `/Room_server/rooms/{id}/interactionby/me`            | GET    | Player interaction state    |
-| `/Room_server/rooms/{id}/subrooms/{sub}/saves/{save}` | GET    | Subroom save data           |
-| `/Room_server/photon_access_token`                    | GET    | Photon networking token     |
-| `/Room_server/publishState/configs`                   | GET    | Publish state configuration |
+| `rooms.rec.net/rooms`                                  | GET    | Room listing                |
+| `rooms.rec.net/rooms/{id}`                             | GET    | Room details                |
+| `rooms.rec.net/rooms/bulk`                             | GET    | Bulk room lookup            |
+| `rooms.rec.net/dormroom/me`                            | GET    | User dorm room              |
+| `rooms.rec.net/featuredrooms/current`                  | GET    | Featured rooms              |
+| `rooms.rec.net/rooms/hot`                              | GET    | Hot rooms                   |
+| `rooms.rec.net/rooms/search`                           | GET    | Room search                 |
+| `rooms.rec.net/rooms/autocomplete_search`              | GET    | Room search suggestions     |
+| `rooms.rec.net/rooms/ownedby/me`                       | GET    | Rooms owned by current user |
+| `rooms.rec.net/rooms/visitedby/me`                     | GET    | Recently visited rooms      |
+| `rooms.rec.net/rooms/{id}/experience`                  | GET    | Room experience metadata    |
+| `rooms.rec.net/rooms/{id}/experience/player`           | GET    | Player room experience      |
+| `rooms.rec.net/rooms/{id}/interactionby/me`            | GET    | Player interaction state    |
+| `rooms.rec.net/rooms/{id}/subrooms/{sub}/saves/{save}` | GET    | Subroom save data           |
+| `rooms.rec.net/photon_access_token`                    | GET    | Photon networking token     |
+| `rooms.rec.net/publishState/configs`                   | GET    | Publish state configuration |
 
 ## Images & Media
 | Endpoint | Method | Notes |
 |----------|--------|-------|
+| `/api/images/v4/{id}` | GET | Image details |
 | `/api/images/v2/named` | GET | Named images |
+| `apim.rec.net/apis/api/images/v3/feed/player/{player-id}?skip={skip-amount}&take={amount-to-take}&since={utc-timestamp} ` | GET | Named images used for the feed |
+| `apim.rec.net/apis/api/images/v1/{id}/cheers  ` | GET | Get Cheers |
+| `apim.rec.net/apis/api/images/v1/{id}/comments  ` | GET | Get Comments |
 | `/api/images/v5/cheered/bulk` | GET | Bulk cheered images |
 | `/api/images/v1/cheer` | POST | Cheer an image |
 | `/api/PlayerCheer/v1/create` | POST | Create a player cheer |
