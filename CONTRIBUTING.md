@@ -33,6 +33,8 @@ This is the highest priority before June 1st 2026. Once the servers go dark, we 
 
 **Bonus:** use a proxy like [mitmproxy](https://mitmproxy.org/) to intercept and log REST API calls (account login, room fetching, inventory, etc.)
 
+For intercepting, you need to inject [SSLPatcher.dll](docs/SSLPatcher.dll), with tools like Extreme Injector. Best timing is around the time when the splash screen gets hidden. (thanks landon_0_0 on Discord for the DLL!)
+
 Document any endpoints you find in the [`/docs/api`](./docs/api/) folder.
 
 ---
