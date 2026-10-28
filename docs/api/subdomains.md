@@ -9,27 +9,27 @@ Additional subdomains contributed using a [subdomain finder](https://subdomainfi
 > All traffic is TLS encrypted. Subdomain names and server IPs are visible but request/response content is not. Confidence levels are based on subdomain names and connection timing, not actual request inspection.
 
 ---
+Unorganized:  
 
-I have no idea how i found this but
-auth-staging.rec.net
-foo.rec.net
-auth-test-staging.rec.net
-partner.rec.net
-www-partner.rec.net
-www-test-staging.rec.net
-o3.coach.rec.net
-o4.coach.rec.net
-strings-test-cdn.rec.net
-api-staging.rec.net
-auth.test.rec.net
-api.test.rec.net
-api-test-staging.rec.net
-accounts-stress.rec.net
-auth-stress.rec.net
-strings-cdn-partner.rec.net
-o5.coach.rec.net
-www-staging.rec.net
-admin.test.rec.net
+auth-staging.rec.net  
+foo.rec.net  
+auth-test-staging.rec.net  
+partner.rec.net  
+www-partner.rec.net  
+www-test-staging.rec.net  
+o3.coach.rec.net  
+o4.coach.rec.net  
+strings-test-cdn.rec.net  
+api-staging.rec.net  
+auth.test.rec.net  
+api.test.rec.net  
+api-test-staging.rec.net  
+accounts-stress.rec.net  
+auth-stress.rec.net  
+strings-cdn-partner.rec.net  
+o5.coach.rec.net  
+www-staging.rec.net  
+admin.test.rec.net  
 
 ## Subdomains
 
