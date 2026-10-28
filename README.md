@@ -4,26 +4,11 @@
 
 # RestoRoom
 
-
-
-
-
-
-> **Early WIP** — A community-driven reimplementation of the Rec Room servers, keeping Rec Room alive past June 1st, 2026.
-
----
-
-> [!NOTE]
-> This is my first time attempting a project of this scale, and reverse engineering stuff, so things may be rough around the edges. Bear with me!
-
-**DISCORD**: https://discord.gg/BQMgupZhyR
-
-
-## What is this?
-
-Rec Room has shut down on **June 1st, 2026**. RestoRoom is an open-source effort to reverse engineer and reimplement the Rec Room server infrastructure so the community can keep playing after the lights go out.
+RestoRoom is an open-source effort to reverse engineer and reimplement the Rec Room server infrastructure so the community can keep playing after the lights go out.
 
 This is a preservation project, built by fans, for fans.
+
+**DISCORD**: https://discord.gg/BQMgupZhyR
 
 ---
 
